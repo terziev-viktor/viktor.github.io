@@ -1,0 +1,131 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "terzievviktor@gmail.com"
+    title = "Viktor Terziev"
+    author = "Darshan Baral"
+    description = "About me"
+    copyright = "Hugo powered theme"
+    theme = "light" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Viktor Terziev"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/viktor-terziev-7472b4126/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/terziev-viktor"
+        title = "GitHub"
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Bachelors in Informatics"
+        college = "Sofia University"
+        dates = "2017 - 2021"
+        
+        [[params.education.list]]
+        degree = "Practical Software Engineering"
+        college = "Software University"
+        dates = "2014 - 2016"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "Bulgarian"
+        level = "Native"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Programming"
+		
+		[[params.hobbies.list]]
+        interest = "Gaming"
+
+        [[params.hobbies.list]]
+        interest = "Workout"
+
+        [[params.hobbies.list]]
+        interest = "Music"
+
+    [params.aboutme]
+        description = "Experienced Software Engineer with a demonstrated history of working in the computer software industry. Skilled in C++, Python, Shell Scripting, JavaScript, and Unreal Engine 4. Strong algorithmic and problem solving skills, multithreading and dynamic programming"
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+[[params.jobs.list]]
+        position = "C Developer"
+        dates = "2021 - *Present*"
+		link = "https://www.ocadogroup.com/about-us/ocado-technology"
+        company = "Ocado Technology"
+        details = "Building the software which powers the next generation robotic picking and storage solution."
+
+
+        [[params.jobs.list]]
+        position = "C++ Developer"
+        dates = "2019 - 2021"
+		link = "https://www.acronis.com/en-eu/promotion/backup/sem-split-2/?gclid=CjwKCAjwh5qLBhALEiwAioods4JXjXmEzH2lmFA3tp6UCPnCGhjfM72fxw74E0IxI1WZbPW5071_6BoCWNIQAvD_BwE"
+        company = "Acronis"
+        details = "Worked on cyber security and file transfer solutions with C++, C# and ObjectiveC"
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Sync Directiories"
+        url = "https://github.com/terziev-viktor/SyncDirectories"
+        description = "A program for syncing two directories, written in c++"
+		
+		[[params.projects.list]]
+        title = "Technical exploitation exams generator"
+        url = "https://github.com/terziev-viktor/AESTest-2.0"
+        description = "A windows form application for generating tests. AES Galabovo use this program. Employees saving time and effort as they don't need to make tests, protocols and certificates by hand."
+
+        [[params.projects.list]]
+        title = "JSON-Parser"
+        url = "https://github.com/terziev-viktor/JSON-Parser"
+        description = "This was my first course project in university. Its a c++ program for manipulating JSON objects"
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Team player and a teacher"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Problem Solver"
+        skillrating = 100
+		
+        [[params.skills.list]]
+        skill = "Ability to work under pressure"
+        skillrating = 88
