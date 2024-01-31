@@ -95,6 +95,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         company = "Acronis"
         details = "Worked on cyber security and file transfer solutions with C++, C# and ObjectiveC"
 
+        [[params.jobs.list]]
+        position = "Teaching Assistant"
+        dates = "2019 - 2020"
+		link = "https://www.fmi.uni-sofia.bg/en"
+        company = "Sofia University"
+        details = "Teaching young, future programmers the fundamentals of programming and c++"
+
     # Projects section
     [params.projects]
         title = "Projects"
