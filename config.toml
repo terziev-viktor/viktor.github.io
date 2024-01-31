@@ -1,4 +1,4 @@
-baseURL = "http://viktor.github.io/"
+baseURL = "https://terziev-viktor.github.io/"
 languageCode = "en-us"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -65,7 +65,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Programming"
 		
 		[[params.hobbies.list]]
-        interest = "Gaming"
+        interest = "Snowboarding"
 
         [[params.hobbies.list]]
         interest = "Workout"
@@ -74,7 +74,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Music"
 
     [params.aboutme]
-        description = "Experienced Software Engineer with a demonstrated history of working in the computer software industry. Skilled in C++, Python, Shell Scripting, JavaScript, and Unreal Engine 4. Strong algorithmic and problem solving skills, multithreading and dynamic programming"
+        description = "Experienced Software Engineer with a demonstrated history of working in the computer software industry. Skilled in C++, Shell Scripting, JavaScript, and Java. Building robots with nucleo boards in my free time. Strong algorithmic and problem solving skills, multithreading and dynamic programming"
 
     # Experiences section
     [params.experiences]
@@ -110,9 +110,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         description = "A windows form application for generating tests. AES Galabovo use this program. Employees saving time and effort as they don't need to make tests, protocols and certificates by hand."
 
         [[params.projects.list]]
-        title = "JSON-Parser"
-        url = "https://github.com/terziev-viktor/JSON-Parser"
-        description = "This was my first course project in university. Its a c++ program for manipulating JSON objects"
+        title = "my-sensors"
+        url = "https://github.com/terziev-viktor/my_sensors"
+        description = "Code for the nucleo-f303re board and some sensors that I have."
 
     # Skills section
     [params.skills]
