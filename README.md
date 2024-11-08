@@ -1,1 +1,0 @@
-# terzievviktor.github.io
