@@ -39,7 +39,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         degree = "Bachelors in Informatics"
         college = "Sofia University"
         dates = "2017 - 2021"
-        
+
         [[params.education.list]]
         degree = "Practical Software Engineering"
         college = "Software University"
@@ -52,7 +52,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.language.list]]
         language = "English"
         level = "Fluent"
-				
+
         [[params.language.list]]
         language = "Bulgarian"
         level = "Native"
@@ -63,7 +63,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.hobbies.list]]
         interest = "Programming"
-		
+
 		[[params.hobbies.list]]
         interest = "Snowboarding"
 
@@ -73,8 +73,27 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.hobbies.list]]
         interest = "Music"
 
+    # Technologies section
+    [params.technologies]
+        title = "Technologies"
+
+        [[params.technologies.list]]
+        interest = "C/C++, python, shell scripting, Java, C#, ObjectiveC"
+
+        [[params.technologies.list]]
+        interest = "CMake, Gradle, Maven"
+
+		[[params.technologies.list]]
+        interest = "Embedded C, Linux, Bare Metal"
+
+        [[params.technologies.list]]
+        interest = "AWS, Spring"
+
+        [[params.technologies.list]]
+        interest = "Qt, WinForms, WPF"
+
     [params.aboutme]
-        description = "Experienced Software Engineer with a demonstrated history of working in the computer software industry. Skilled in C++, Shell Scripting, JavaScript, and Java. Building robots with nucleo boards in my free time. Strong algorithmic and problem solving skills, multithreading and dynamic programming"
+        description = "Experienced Software Engineer with over 5 years of professional experience. Skilled in C++, Shell Scripting, Java and python. Building robots with nucleo boards in my free time. Strong algorithmic and problem solving skills, multithreading, OOP design and development."
 
     # Experiences section
     [params.experiences]
@@ -85,7 +104,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2021 - *Present*"
 		link = "https://www.ocadogroup.com/about-us/ocado-technology"
         company = "Ocado Technology"
-        details = "Building the software which powers the next generation robotic picking and storage solution."
+        details = "Building the software which powers the next generation robotic picking and storage solution. Working on Bots firmware as well as on-cloud applications related to diagnostics and manufacturing. "
 
 
         [[params.jobs.list]]
@@ -110,7 +129,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Sync Directiories"
         url = "https://github.com/terziev-viktor/SyncDirectories"
         description = "A program for syncing two directories, written in c++"
-		
+
 		[[params.projects.list]]
         title = "Technical exploitation exams generator"
         url = "https://github.com/terziev-viktor/AESTest-2.0"
@@ -128,11 +147,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.skills.list]]
         skill = "Team player and a teacher"
         skillrating = 95 # out of 100
-                
+
         [[params.skills.list]]
         skill = "Problem Solver"
         skillrating = 100
-		
+
         [[params.skills.list]]
         skill = "Ability to work under pressure"
         skillrating = 88

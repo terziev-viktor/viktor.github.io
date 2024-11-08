@@ -1,3 +1,8 @@
+<h3>{{ .Site.Params.technologies.title }}</h3>
+{{ range .Site.Params.technologies.list }}
+<p class="ml-1">{{ .interest }}</p>
+{{ end }}
+
 <h3>{{ .Site.Params.hobbies.title }}</h3>
 {{ range .Site.Params.hobbies.list }}
 <p class="ml-1">{{ .interest }}</p>
