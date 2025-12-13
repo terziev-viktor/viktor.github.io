@@ -93,7 +93,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Qt, WinForms, WPF"
 
     [params.aboutme]
-        description = "Experienced Software Engineer with over 5 years of professional experience. Skilled in C++, Shell Scripting, Java and python. Building robots with nucleo boards in my free time. Strong algorithmic and problem solving skills, multithreading, OOP design and development."
+        description = "Experienced Software Engineer with over 6 years of professional experience. Skilled in C/C++, Shell Scripting, Java and python. Building robots with nucleo boards in my free time. Strong OOP, algorithmic, multithreading and problem solving skills."
 
     # Experiences section
     [params.experiences]
@@ -104,7 +104,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2021 - *Present*"
 		link = "https://www.ocadogroup.com/about-us/ocado-technology"
         company = "Ocado Technology"
-        details = "Building the software which powers the next generation robotic picking and storage solution. Working on Bots firmware as well as on-cloud applications related to diagnostics and manufacturing. "
+        details = "Building the software which powers the next generation robotic picking and storage solution. Working on Bots firmware as well as on-cloud applications related to diagnostics and manufacturing of ocado robots."
 
 
         [[params.jobs.list]]
@@ -119,7 +119,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2019 - 2020"
 		link = "https://www.fmi.uni-sofia.bg/en"
         company = "Sofia University"
-        details = "Teaching young, future programmers the fundamentals of programming and c++"
+        details = "Teaching future developers the fundamentals of programming and c++"
 
     # Projects section
     [params.projects]
