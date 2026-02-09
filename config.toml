@@ -104,15 +104,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2021 - *Present*"
 		link = "https://www.ocadogroup.com/about-us/ocado-technology"
         company = "Ocado Technology"
-        details = "Building the software which powers the next generation robotic picking and storage solution. Working on Bots firmware as well as on-cloud applications related to diagnostics and manufacturing of ocado robots."
-
+        details = "I Design, develop, and optimize mission-critical firmware using C and C++ for bare-metal environments. I ensure the highest levels of safety, precision, and efficiency in robot motion control and sensor integration. I architect and maintain scalable cloud applications using Java and the Spring Framework to facilitate real-time data ingestion, remote diagnostics, and predictive maintenance for thousands of bots. I Develop proprietary software solutions to streamline the manufacturing process, ensuring hardware integrity from the assembly line to the warehouse. I act as a technical subject matter expert between hardware engineering and software operations, translating physical constraints into digital solutions."
 
         [[params.jobs.list]]
         position = "C++ Developer"
         dates = "2019 - 2021"
 		link = "https://www.acronis.com/en-eu/promotion/backup/sem-split-2/?gclid=CjwKCAjwh5qLBhALEiwAioods4JXjXmEzH2lmFA3tp6UCPnCGhjfM72fxw74E0IxI1WZbPW5071_6BoCWNIQAvD_BwE"
         company = "Acronis"
-        details = "Worked on cyber security and file transfer solutions with C++, C# and ObjectiveC"
+        details = "As a key contributor to the Acronis Cyber Protection team, I was responsible for the architecture, development, and maintenance of high-performance cybersecurity solutions. My role bridged the gap between cross-platform core engine development in C++ and platform-specific optimization for macOS using Objective-C. I ensured that our mission-critical security applications remain robust, scalable, and integrated within the Apple ecosystem."
 
         [[params.jobs.list]]
         position = "Teaching Assistant"
