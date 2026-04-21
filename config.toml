@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Profile section
     [params.profile]
         name = "Viktor Terziev"
-        photo = "images/profile.jpg"
+        photo = "images/profile.png"
 
     # Section for links to social websites
     [params.social]
@@ -63,9 +63,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
         [[params.hobbies.list]]
         interest = "Programming"
-
-		[[params.hobbies.list]]
-        interest = "Snowboarding"
 
         [[params.hobbies.list]]
         interest = "Workout"
