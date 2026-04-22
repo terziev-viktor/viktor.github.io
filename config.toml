@@ -122,19 +122,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Sync Directiories"
+        title = "Directory Synchronization Tool"
         url = "https://github.com/terziev-viktor/SyncDirectories"
-        description = "A program for syncing two directories, written in c++"
+        description = "C++ utility for synchronizing two directory trees with focus on reliable file comparison"
 
 		[[params.projects.list]]
-        title = "Technical exploitation exams generator"
+        title = "Technical Exploitation Exams Generator"
         url = "https://github.com/terziev-viktor/AESTest-2.0"
-        description = "A windows form application for generating tests. AES Galabovo use this program. Employees saving time and effort as they don't need to make tests, protocols and certificates by hand."
+        description = "Windows Forms desktop application used by AES Galabovo to automate technical exam generation, protocols, and certificates. Reduced manual document preparation and improved consistency in internal training workflows."
 
         [[params.projects.list]]
-        title = "my-sensors"
+        title = "Embedded Hobby Projects"
         url = "https://github.com/terziev-viktor/my_sensors"
-        description = "Code for the nucleo-f303re board and some sensors that I have."
+        description = "Embedded C/C++ experiments for the Nucleo-F303RE development board, integrating multiple sensors and low-level peripherals to explore data acquisition, board bring-up, and firmware design."
 
     # Skills section
     [params.skills]
