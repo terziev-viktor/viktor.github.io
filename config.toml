@@ -99,7 +99,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[params.jobs.list]]
         position = "Embedded Software Engineer"
         dates = "2021 - *Present*"
-		link = "https://www.ocadogroup.com/about-us/ocado-technology"
+		link = "https://www.ocadogroup.com/"
         company = "Ocado Technology"
         details = "Design, develop, and optimize mission-critical firmware in C and C++ for bare-metal robotic systems. Build software for motion control, sensor integration, diagnostics, and manufacturing workflows, with focus on safety, precision, and reliability. Develop Java and Spring services for real-time data ingestion, remote diagnostics, and predictive maintenance across large robot fleets. Collaborate with hardware, manufacturing, and operations teams to translate physical system constraints into robust software solutions."
 
