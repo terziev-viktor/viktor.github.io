@@ -122,6 +122,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Projects"
 
         [[params.projects.list]]
+        title = "Spodeleno"
+        url = "https://spodeleno.online"
+        description = "Free ride-sharing PWA for Bulgaria, connecting drivers and passengers with trip publishing, search, chat, installable mobile experience, and push notifications."
+
+        [[params.projects.list]]
         title = "Directory Synchronization Tool"
         url = "https://github.com/terziev-viktor/SyncDirectories"
         description = "C++ utility for synchronizing two directory trees with focus on reliable file comparison"
