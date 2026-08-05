@@ -96,7 +96,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [params.experiences]
         title = "Experiences"
 
-[[params.jobs.list]]
+        [[params.jobs.list]]
+        position = "ROS2/Robotics Developer"
+        dates = "Apr 2026 - *Present*"
+        link = "https://eurodesign.bg/"
+        company = "Eurodesign Systems Ltd."
+        details = "Develop robotics applications and perception systems using ROS2 Humble, MuJoCo simulation, C/C++, and Python. Design and implement sensor pipelines, motion planning, and robotic control software for real-world automation workloads."
+
+        [[params.jobs.list]]
         position = "Embedded Software Engineer"
         dates = "2021 - *Present*"
 		link = "https://www.ocadogroup.com/"
